@@ -1,0 +1,6 @@
+{
+    "UITopOffset": 1.0,
+    "UILeftOffset": 0.9278077,
+    "UIBottomOffset": 0.7309148,
+    "UIRightOffset": 0.9404613
+}

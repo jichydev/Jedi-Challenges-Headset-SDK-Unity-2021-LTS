@@ -1,0 +1,7 @@
+{
+    "UITopOffset": 1.0,
+    "UILeftOffset": 1.0,
+    "UIBottomOffset": 0.5,
+    "UIRightOffset": 1.0,
+    "FrameDelay": 3
+}

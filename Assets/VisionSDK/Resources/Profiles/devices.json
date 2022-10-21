@@ -1,0 +1,498 @@
+{
+	"Version": 1,
+	"Platforms": [
+		{
+			"Platform": "iOS",
+			"Devices": [
+				{
+					"Name": "iPhone 6",
+					"Models": [
+						"iPhone7,2"
+					],
+					"BaseModelNames": [],
+					"Stopper": 1,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8.txt",
+					"Quality": 0,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 6 Plus",
+					"Models": [
+						"iPhone7,1"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8_plus.txt",
+					"Quality": 0,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 6S",
+					"Models": [
+						"iPhone8,1"
+					],
+					"BaseModelNames": [],
+					"Stopper": 1,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 6S Plus",
+					"Models": [
+						"iPhone8,2"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8_plus.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 7",
+					"Models": [
+						"iPhone9,1",
+						"iPhone9,3"
+					],
+					"BaseModelNames": [],
+					"Stopper": 1,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 7 Plus",
+					"Models": [
+						"iPhone9,2",
+						"iPhone9,4"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8_plus.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 8",
+					"Models": [
+						"iPhone10,1",
+						"iPhone10,4"
+					],
+					"BaseModelNames": [],
+					"Stopper": 1,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone 8 Plus",
+					"Models": [
+						"iPhone10,2",
+						"iPhone10,5"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_iphone6_6s_7_8_plus.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "iPhone X",
+					"Models": [
+						"iPhone10,3"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				}
+			]
+		},
+		{
+			"Platform": "Android",
+			"Devices": [
+				{
+					"Name": "Pixel",
+					"Models": [
+						"Google Pixel"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_google_pixel.txt",
+					"Quality": 1,
+					"XDpi": 442.45098876953127,
+					"YDpi": 443.3450012207031,
+					"ScreenWidth": 1920,
+					"ScreenHeight": 1080
+				},
+				{
+					"Name": "Pixel XL",
+					"Models": [
+						"Google Pixel XL"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_google_pixel_xl.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "Pixel2",
+					"Models": [
+						"Google Pixel 2"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_google_pixel2.txt",
+					"Quality": 2,
+					"XDpi": 442.45098876953127,
+					"YDpi": 443.3450012207031,
+					"ScreenWidth": 1920,
+					"ScreenHeight": 1080
+				},
+				{
+					"Name": "Pixel2 XL",
+					"Models": [
+						"Google Pixel 2 XL"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_google_pixel2_xl.txt",
+					"Quality": 2,
+					"XDpi": 537.8820190429688,
+					"YDpi": 537.8820190429688,
+					"ScreenWidth": 2880,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Galaxy S6",
+					"Models": [
+						"samsung SM-G920T",
+						"samsung SC-04G"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 0,
+					"SettingsFile": "pvt_samsung_s6",
+					"Quality": 0,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 2560,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Galaxy S7",
+					"Models": [
+						"samsung SM-G930F",
+						"samsung SM-G930X",
+						"samsung SM-G930W8",
+						"samsung SM-G930K",
+						"samsung SM-G930L",
+						"samsung SM-G930S",
+						"samsung SM-G930R7",
+						"samsung SAMSUNG-SM-G930AZ",
+						"samsung SAMSUNG-SM-G930A",
+						"samsung SM-G930VC",
+						"samsung SM-G9300",
+						"samsung SM-G9308",
+						"samsung SM-G930R6",
+						"samsung SM-G930T1",
+						"samsung SM-G930P",
+						"samsung SM-G930VL",
+						"samsung SM-G930T",
+						"samsung SM-G930U",
+						"samsung SM-G930R4",
+						"samsung SM-G930V"
+					],
+					"BaseModelNames": [
+						"samsung SM-G930",
+						"samsung SAMSUNG-SM-G930"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_samsung_s7.txt",
+					"Quality": 2,
+					"XDpi": 580.5709838867188,
+					"YDpi": 575.4329833984375,
+					"ScreenWidth": 2560,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Galaxy S7 Active",
+					"Models": [
+						"SAMSUNG-SM-G891A"
+					],
+					"BaseModelNames": [
+						"SAMSUNG-SM-G891",
+						"samsung SAMSUNG-SM-G891"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_samsung_s7.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "Galaxy S7 Edge",
+					"Models": [
+						"samsung SC-02H",
+						"samsung SCV33",
+						"samsung SM-G935F",
+						"samsung SM-G935X",
+						"samsung SM-G935W8",
+						"samsung SM-G935K",
+						"samsung SM-G935L",
+						"samsung SM-G935S",
+						"samsung SAMSUNG-SM-G935A",
+						"samsung SM-G935VC",
+						"samsung SM-G9350",
+						"samsung SM-G935P",
+						"samsung SM-G935T",
+						"samsung SM-G935U",
+						"samsung SM-G935R4",
+						"samsung SM-G935V"
+					],
+					"BaseModelNames": [
+						"samsung SM-G935",
+						"samsung SAMSUNG-SM-G935"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_samsung_s7_edge.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "Galaxy S8",
+					"Models": [
+						"samsung SM-G950U",
+						"samsung SM-G950U1",
+						"samsung SM-G950F",
+						"samsung SM-G9500",
+						"samsung SM-G950N"
+					],
+					"BaseModelNames": [
+						"samsung SM-G950"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_samsung_s8.txt",
+					"Quality": 2,
+					"XDpi": 562.7069702148438,
+					"YDpi": 565.2930297851563,
+					"ScreenWidth": 2960,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Galaxy S8 XL",
+					"Models": [
+						"samsung SM-G955F",
+						"samsung SM-G9550"
+					],
+					"BaseModelNames": [
+						"samsung SM-G955",
+						"samsung SAMSUNG-SM-G955"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_samsung_s8_plus.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "Motorola Moto Z",
+					"Models": [
+						"motorola XT1650",
+						"motorola XT1650-05",
+						"motorola XT1651",
+						"motorola XT1652",
+						"motorola XT1563",
+						"motorola XT1635-02",
+						"motorola XT1635-03",
+						"motorola XT1635-01",
+						"motorola XT1789-05",
+						"motorola XT1710-02",
+						"motorola XT1710-08",
+						"motorola XT1710-11"
+					],
+					"BaseModelNames": [
+						"motorola XT15",
+						"motorola XT16",
+						"motorola XT17"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_motorola_motoz.txt",
+					"Quality": 0,
+					"XDpi": 537.8820190429688,
+					"YDpi": 537.3380126953125,
+					"ScreenWidth": 2560,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Motorola Moto Z2",
+					"Models": [
+						"motorola Moto Z (2)",
+						"motorola Moto Z2 Play"
+					],
+					"BaseModelNames": [
+						"motorola Moto Z (2)",
+						"motorola Moto Z2 Play"
+					],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_motorola_motoz2.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "LG G6",
+					"Models": [
+						"LGE LG-AS993",
+						"LGE LG-H870",
+						"LGE LG-H870DS",
+						"LGE LG-H870S",
+						"LGE LG-H871",
+						"LGE LG-H872",
+						"LGE LG-H872PR",
+						"LGE LG-H873",
+						"LGE LG-LS993",
+						"LGE LGM-G600K",
+						"LGE LGM-G600L",
+						"LGE LGM-G600S",
+						"LGE LGUS997",
+						"LGE VS988"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_lg_g6.txt",
+					"Quality": 2,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "LG V20",
+					"Models": [
+						"LGE LG-F800",
+						"LGE LG-F800S",
+						"LGE LG-F800K",
+						"LGE LG-F800L",
+						"LGE LG-H910",
+						"LGE LG-H915",
+						"LGE LG-H990DS Dual",
+						"LGE LG-H990N Dual",
+						"LGE LG-H990T",
+						"LGE LG-LS997",
+						"LGE LG-VS995",
+						"LGE LG-US996",
+						"LGE LG-H918"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 0,
+					"SettingsFile": "pvt_lg_v20.txt",
+					"Quality": 0,
+					"XDpi": 0.0,
+					"YDpi": 0.0,
+					"ScreenWidth": 0,
+					"ScreenHeight": 0
+				},
+				{
+					"Name": "LG V30",
+					"Models": [
+						"LGE LG-V300",
+						"LGE LG-H930DS",
+						"LGE LG-VS996",
+						"LGE LG-LS998",
+						"LGE LG-AS998",
+						"LGE LG-US998",
+						"LGE LG-H931"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "pvt_lg_v30.txt",
+					"Quality": 0,
+					"XDpi": 537.882,
+					"YDpi": 537.882,
+					"ScreenWidth": 2880,
+					"ScreenHeight": 1440
+				},
+				{
+					"Name": "Xiaomi Note 10 Pro",
+					"Models": [
+						"Xiaomi M2101K6G"
+					],
+					"BaseModelNames": [],
+					"Stopper": 0,
+					"Supported": 1,
+					"SettingsFile": "xiaomi_note_10.txt",
+					"Quality": 0,
+					"XDpi": 394.705,
+					"YDpi": 394.705,
+					"ScreenWidth": 2400,
+					"ScreenHeight": 1080
+				}
+			]
+		}
+	]
+}

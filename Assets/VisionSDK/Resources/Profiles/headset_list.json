@@ -1,0 +1,18 @@
+{
+    "Version": 1,
+    "Headsets": [{
+        "Name": ["PVT", "Live"],
+        "UIPhysicalWidth": 4.09202,
+        "UIPhysicalHeight": 1.9324,
+        "Ipd": 0.062,
+        "Fov": 42.0,
+        "HorizontalOffset": 0.01,
+        "HorizontalSplit": -0.07,
+        "VerticalOffset": 0.295,
+        "VerticalSplit": 0.0,
+        "CameraAngle": 25.0,
+        "CameraOffsetX": -0.08,
+        "CameraOffsetY": 0.0,
+        "CameraOffsetZ": 0.06
+    }]
+}
