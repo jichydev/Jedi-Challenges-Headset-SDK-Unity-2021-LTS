@@ -15,3 +15,7 @@ First scene (BasicExampleSceneOne) is for initial setup:
 - start simple AR scene (BasicExampleSceneTwo)
 - device settings - tweak parameters for your phone display - add them to VisionSDK/Resources/Profiles
 - headset settings - I will have to figure that out :)
+
+## Build your scene from scratch
+
+[Ximmerse AR SDK Build from Scratch](https://www.youtube.com/watch?v=iFTaQuFHNW0)
