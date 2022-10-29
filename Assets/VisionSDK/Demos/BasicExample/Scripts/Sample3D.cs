@@ -29,8 +29,10 @@ namespace Ximmerse.Example
 
         // Saber color
         private static int saberColor = (int)ColorID.BLUE;
+        private static int saberColor2 = (int)ColorID.RED;
 
         private ControllerPeripheral controller;
+        private ControllerPeripheral controller2;
 
         #endregion
 
@@ -70,7 +72,11 @@ namespace Ximmerse.Example
             controller = new ControllerPeripheral("XCobra-0", Controller, null, (ColorID)saberColor);
             controller.UsePositionPrediction = true;
 
+            controller2 = new ControllerPeripheral("XCobra-1", Controller, null, (ColorID)saberColor2);
+            controller2.UsePositionPrediction = true;
+
             Sdk.Connections.AddPeripheral(controller);
+            Sdk.Connections.AddPeripheral(controller2);
 
             // Connection Events
             Sdk.Connections.OnPeripheralStateChange += OnPeripheralStateChange;

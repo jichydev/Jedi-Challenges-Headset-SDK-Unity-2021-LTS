@@ -36,10 +36,11 @@ namespace Ximmerse.Example
 
         #region Private Properties
 
-        private ControllerPeripheral controller;      
+        private ControllerPeripheral controller1;
+        private ControllerPeripheral controller2;
 
         #endregion
-    
+
         #region Unity Methods
 
         //@EDIT:
@@ -53,8 +54,11 @@ namespace Ximmerse.Example
             Sdk.Init(true);
 
             // Add a controller
-            controller = new ControllerPeripheral("XCobra-0");
-            Sdk.Connections.AddPeripheral(controller);
+            controller1 = new ControllerPeripheral("XCobra-0", null, null, ColorID.BLUE);
+            controller2 = new ControllerPeripheral("XCobra-1", null, null, ColorID.RED);
+
+            Sdk.Connections.AddPeripheral(controller1);
+            Sdk.Connections.AddPeripheral(controller2);
 
             // Listeners
             Sdk.Connections.OnPeripheralStateChange += OnPeripheralStateChange;
@@ -107,38 +111,66 @@ namespace Ximmerse.Example
             PairButton.GetComponentInChildren<Text>().text = "Start Pairing";
         }
 
-        public void StartCalibration()
+        public void StartCalibration1()
         {
             // Can't calibrate if nothing is paired.
-            if (!controller.Connected)
+            if (!controller1.Connected)
             {
                 return;
             }
 
             // Start the calibration
-            controller.StartCalibration(CalibrationStateChanged);
+            controller1.StartCalibration(CalibrationStateChanged1);
 
             // Update the color and text.
             CalibrateButton.GetComponentInChildren<Text>().text = "Calibrating...";
             CalibrateButton.GetComponent<Image>().color = Color.blue;
 
             // Force stop after 30 if not completed.
-            Invoke("StopCalibration", 30.0f);
+            Invoke("StopCalibration1", 30.0f);
         }
 
-        public void StopCalibration()
+        public void StartCalibration2()
+        {
+            // Can't calibrate if nothing is paired.
+            if (!controller2.Connected)
+            {
+                return;
+            }
+
+            // Start the calibration
+            controller2.StartCalibration(CalibrationStateChanged2);
+
+            // Update the color and text.
+            CalibrateButton.GetComponentInChildren<Text>().text = "Calibrating...";
+            CalibrateButton.GetComponent<Image>().color = Color.blue;
+
+            // Force stop after 30 if not completed.
+            Invoke("StopCalibration2", 30.0f);
+        }
+
+        public void StopCalibration1()
         {
             // Stop the calibration
-            controller.StopCalibrating();
+            controller1.StopCalibrating();
 
             // Update the color and text.
             CalibrateButton.GetComponent<Image>().color = Color.white;
-            CalibrateButton.GetComponentInChildren<Text>().text = "Calibrate Saber";
+            CalibrateButton.GetComponentInChildren<Text>().text = "Calibrate controller 1";
         }
 
-#endregion
+        public void StopCalibration2()
+        {
+            // Stop the calibration
+            controller2.StopCalibrating();
 
-#region Private Methods
+            // Update the color and text.
+            CalibrateButton.GetComponent<Image>().color = Color.white;
+            CalibrateButton.GetComponentInChildren<Text>().text = "Calibrate controller 2";
+        }
+        #endregion
+
+        #region Private Methods
         private void OnPeripheralStateChange(object sender, PeripheralStateChangeEventArgs eventArguments)
         {
             Debug.Log("OnPeripheralStateChange: " + eventArguments.Peripheral + " " + eventArguments.Connected);
@@ -154,8 +186,8 @@ namespace Ximmerse.Example
                 if (eventArguments.Connected)
                 {
                     // Stop Pairing now that it is found.
-                    CancelInvoke("StopPairing");
-                    StopPairing();
+                    //CancelInvoke("StopPairing");
+                    //StopPairing();
 
                     // Update the pair button color
                     PairButton.GetComponent<Image>().color = Color.green;
@@ -168,7 +200,7 @@ namespace Ximmerse.Example
             }
         }
 
-        private void CalibrationStateChanged(CalibrationState state)
+        private void CalibrationStateChanged1(CalibrationState state)
         {
             CalibrateButton.GetComponentInChildren<Text>().text = "Calibration State: " + state;
 
@@ -176,11 +208,25 @@ namespace Ximmerse.Example
             {
                 case CalibrationState.Complete:
                     // Calibration is done, stop it.
-                    CancelInvoke("StopCalibration");
-                    StopCalibration();
+                    CancelInvoke("StopCalibration1");
+                    StopCalibration1();
                     break;
             }
         }
-#endregion
+
+        private void CalibrationStateChanged2(CalibrationState state)
+        {
+            CalibrateButton.GetComponentInChildren<Text>().text = "Calibration State: " + state;
+
+            switch (state)
+            {
+                case CalibrationState.Complete:
+                    // Calibration is done, stop it.
+                    CancelInvoke("StopCalibration2");
+                    StopCalibration2();
+                    break;
+            }
+        }
+        #endregion
     }
 }
