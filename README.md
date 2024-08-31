@@ -1,6 +1,6 @@
-# LenovoMirageAR-Unity2021SDK
+# Jedi Challenges Headset SDK for Unity
 
-Lenovo Mirage AR Headset SDK for Unity 2021 LTS (2021.3.11f1)
+Jedi Challenges Headset (Lenovo Mirage AR) SDK for Unity 2021 LTS (2021.3.11f1)
 
 ## Setup
 
